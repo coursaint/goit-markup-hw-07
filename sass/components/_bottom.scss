@@ -1,0 +1,38 @@
+.bottom {
+
+    background: var(--fifth-color-dgrey);
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.bottom__box {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom__center {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+
+}
+
+.bottom__right {
+    margin-left: 65px;
+}
+
+.bottom__join {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 72px;
+    margin-bottom: 20px;
+}
