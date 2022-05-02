@@ -332,63 +332,64 @@
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button type="button" class="close-btn" data-modal-close>
-        <svg class="close-btn-img" width="30" height="30">
+        <svg class="close-btn__img" width="30" height="30">
           <use href="./images/icons.svg#icon-close"></use>
         </svg></button>
       <div class="contact-form">
-        <p class="leave-contact">Zostaw swoje dane w formularzu poniżej</p>
+        <p class="contact-form__leave">Zostaw swoje dane w formularzu poniżej</p>
 
-        <form class="modal-form">
-          <label class="label-input">
+        <form>
+          <label class="contact-form__label-input">
             Imię
-            <div class="label-box">
-              <svg class="label-icon" width="18" height="18">
+            <div class="contact-form__label-box">
+              <svg class="contact-form__label-icon" width="18" height="18">
                 <use href="images/icons.svg#icon-person"></use>
               </svg>
-              <input class="inside-text" type="text" name="username" required />
+              <input class="contact-form__inside-text" type="text" name="username" required />
             </div>
           </label>
 
-          <label class="label-input">
+          <label class="contact-form__label-input">
             Telefon
-            <div class="label-box">
-              <svg class="label-icon" width="18" height="18">
+            <div class="contact-form__label-box">
+              <svg class="contact-form__label-icon" width="18" height="18">
                 <use href="images/icons.svg#icon-phone2"></use>
               </svg>
-              <input class="inside-text" type="tel" name="phone_number" required />
+              <input class="contact-form__inside-text" type="tel" name="phone_number" required />
 
             </div>
           </label>
 
 
-          <label class="label-input">
+          <label class="contact-form__label-input">
             Email
-            <div class="label-box">
-              <svg class="label-icon" width="18" height="18">
+            <div class="contact-form__label-box">
+              <svg class="contact-form__label-icon" width="18" height="18">
                 <use href="images/icons.svg#icon-email"></use>
               </svg>
-              <input class="inside-text" type="email" name="email" required />
+              <input class="contact-form__inside-text" type="email" name="email" required />
             </div>
           </label>
 
-          <label class="label-input">
+          <label class="contact-form__label-input">
             Komentarz
-            <div class="label-box">
-              <textarea class="inside-textarea" name="feedback" rows="6" placeholder="Wprowadź tekst"></textarea>
+            <div class="contact-form__label-box">
+              <textarea class="contact-form__inside-textarea" name="feedback" rows="6"
+                placeholder="Wprowadź tekst"></textarea>
             </div>
 
           </label>
-          <div class="">
-            <input type="checkbox" name="checkbox" id="policy" class="checkbox-input" required />
-            <label class="label-statement" for="policy">
-              <p>Oświadczam iż akceptuję <a class="link-policy" href="#">Regulamin </a> i
-                <a class="link-policy" href="#"> Politykę Prywatności.</a>
+          <div>
+            <input type="checkbox" name="checkbox" id="policy" class="checkbox" required />
+            <label class="checkbox__statement" for="policy">
+              <p>Oświadczam iż akceptuję <a class="checkbox__policy" href="#">Regulamin </a> i
+                <a class="checkbox__policy" href="#"> Politykę Prywatności.</a>
               </p>
             </label>
           </div>
 
-          <div class="label-box">
-            <button type="submit" class="send-button">Wyślij</button>
+          <div class="contact-form__label-box">
+            <button type="submit" class="contact-form__button">Wyślij</button>
           </div>
         </form>
       </div>
