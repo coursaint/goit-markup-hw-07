@@ -439,13 +439,13 @@ img {
   justify-content: center;
 }
 
-.client-list {
+.client__list {
   display: flex;
   flex-direction: row;
 
 }
 
-.client-link {
+.client__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -460,13 +460,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client__link:hover,
+.client__link:focus {
   fill: var(--secondary-color-blu);
   border: 1px solid var(--secondary-color-blu);
 }
 
-.client-list-item:not(:last-child) {
+.client__item:not(:last-child) {
   margin-right: 30px;
 }
 
