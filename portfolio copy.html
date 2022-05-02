@@ -18,25 +18,24 @@
 <body>
   <header>
     <div class="container tophead">
-      <a class="logo" href="index.html"> <span class="logo--web">Web</span>Studio </a>
+      <a class="logo-main" href="index.html"> <span class="logo-web">Web</span>Studio </a>
       <nav class="navigation">
-        <ul class="navigation__list list">
+        <ul class="navigation-list list">
           <li class="navigation__item">
-            <a class="navigation__link " href="index.html">AGENCJA</a>
+            <a class="navigation__link" href="index.html">AGENCJA</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link navigation__underline" href="portfolio.html">PORTFOLIO</a>
+            <a class="navigation__link underline" href="portfolio.html">PORTFOLIO</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="#kontakt">KONTAKT</a>
           </li>
         </ul>
       </nav>
-      <a class="address__top address__top--mail" href="mailto:info@devstudio.com">
-        <svg class="adress__icon" width="16" height="12">
+      <a class="address-top mail" href="mailto:info@devstudio.com"><svg class="contacts-icon" width="16" height="12">
           <use href="images/icons.svg#icon-envelope"></use>
         </svg>info@devstudio.com</a>
-      <a class="address__top" href="tel:+48111111111"><svg class="adress__icon" width="16" height="12">
+      <a class="address-top" href="tel:+48111111111"><svg class="contacts-icon" width="16" height="12">
           <use href="images/icons.svg#icon-phone"></use>
         </svg>+48 111 111 111</a>
 
@@ -186,63 +185,59 @@
     </section>
   </main>
   <footer class="bottom">
-    <section class="container ">
-      <section class="container bottom__box">
-        <div class="bottom__left">
-          <a class="logo logo--bottom" href="#"> <span class="logo--web">Web</span>Studio </a>
-          <address id="kontakt" class="adress-bottom">
-            <p class=adress__item>
-              <a class="address__bottom" href="https://goo.gl/maps/KirbmJ58dicckaQu6">m. Warszawa, Aleje Jerozolimskie
-                21</a>
-            </p>
-            <p class="adress__item">
-              <a class="address__bottom address__bottom--grey" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </p>
-            <p class="adress__item ">
-              <a class="address__bottom address__bottom--grey" href="tel:+48111111111">+48 111 111 111</a>
-            </p>
-          </address>
-        </div>
-        <div class="bottom__center">
-          <p class="bottom__join">dołącz do nas</p>
-          <ul class="social">
-            <li class=list><a class="social__link social__link--bottom" href="#">
-                <svg class="social-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg></a></li>
-            <li class=list><a class="social__link social__link--bottom" href="#">
-                <svg class="social-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg></a></li>
-            <li class=list><a class="social__link social__link--bottom" href="#">
-                <svg class="social-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg></a></li>
-            <li class=list><a class="social__link social__link--bottom" href="#">
-                <svg class="social-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg></a></li>
-          </ul>
-        </div>
-        <div class="bottom__right">
-          <form class="newsletter" name="newsletter-form">
-            <label class="newsletter__join">
-              Zapisz się do newslettera
-              <input class="newsletter__lbl" type="email" name="email" placeholder="E-mail" required />
-            </label>
-            <button class="newsletter__button" type="submit">
-              Zapisz się
-              <svg class="newsletter__icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
-
-
-        </div>
-      </section>
+    <section class="container box-bottom">
+      <div class="box-bottom-left">
+        <a class="logo-bottom" href="#"> <span class="logo-web">Web</span>Studio </a>
+        <address id="kontakt" class="adress-bottom">
+          <p class="bottom-adress-item">
+            <a class="address-location" href="https://goo.gl/maps/KirbmJ58dicckaQu6">m. Warszawa, Aleje Jerozolimskie
+              21</a>
+          </p>
+          <p class="bottom-adress-item">
+            <a class="adress-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </p>
+          <p class="bottom-adress-item">
+            <a class="adress-phone" href="tel:+48111111111">+48 111 111 111</a>
+          </p>
+        </address>
+      </div>
+      <div class="box-bottom-center">
+        <p class="join">dołącz do nas</p>
+        <ul class="social-list-bottom">
+          <li class="social-list-item list"><a class="social-list-link-bottom" href="#">
+              <svg class="social-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg></a></li>
+          <li class="social-list-item list"><a class="social-list-link-bottom" href="#">
+              <svg class="social-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg></a></li>
+          <li class="social-list-item list"><a class="social-list-link-bottom" href="#">
+              <svg class="social-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg></a></li>
+          <li class="social-list-item list"><a class="social-list-link-bottom" href="#">
+              <svg class="social-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg></a></li>
+        </ul>
+      </div>
+      <div class="box-bottom-right">
+        <form class="newsletter-form-bottom" name="newsletter-form">
+          <label class="join-newsletter">
+            Zapisz się do newslettera
+            <input class="newsletter-lbl" type="email" name="email" placeholder="E-mail" required />
+          </label>
+          <button class="btn-footer-mail" type="submit">
+            Zapisz się
+            <svg class="send-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </section>
   </footer>
-
 </body>
 
 </html>
