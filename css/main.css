@@ -176,6 +176,7 @@ img {
 .address__top {
   font-weight: 500;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--four-color-gre);
@@ -203,6 +204,7 @@ img {
 
 .address__bottom {
   font-size: 14px;
+  font-style: normal;
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--third-color-whi);
@@ -472,10 +474,7 @@ img {
   letter-spacing: 0.03em;
   margin-top: 20px;
   outline: none;
-}
-
-.newsletter__lbl::placeholder {
-  padding: 15px;
+  padding-left: 15px;
 }
 
 .newsletter__lbl:not(:placeholder-shown) {
