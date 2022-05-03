@@ -10,17 +10,17 @@
   transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.address__top:hover,
-.address__top:focus {
-  color: var(--secondary-color-blu);
-  fill: var(--secondary-color-blu);
-}
+  &:hover,
+  &:focus {
+    color: var(--secondary-color-blu);
+    fill: var(--secondary-color-blu);
+  }
 
-.address__top--mail {
-  margin-right: 50px;
-  margin-left: auto;
+  &--mail {
+    margin-right: 50px;
+    margin-left: auto;
+  }
 }
 
 .adress__icon {
@@ -34,15 +34,15 @@
   color: var(--third-color-whi);
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.address__bottom:hover,
-.address__bottom:focus {
-  color: var(--secondary-color-blu);
-}
+  &:hover,
+  &:focus {
+    color: var(--secondary-color-blu);
+  }
 
-.address__bottom--grey {
-  color: rgba(255, 255, 255, 0.6);
+  &--grey {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .adress__item:not(:first-of-type) {

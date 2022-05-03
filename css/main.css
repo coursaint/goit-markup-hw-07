@@ -187,8 +187,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address__top:hover,
-.address__top:focus {
+.address__top:hover, .address__top:focus {
   color: var(--secondary-color-blu);
   fill: var(--secondary-color-blu);
 }
@@ -211,8 +210,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address__bottom:hover,
-.address__bottom:focus {
+.address__bottom:hover, .address__bottom:focus {
   color: var(--secondary-color-blu);
 }
 
@@ -428,12 +426,12 @@ img {
   display: flex;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-  fill: #AFB1B8;
+  fill: #afb1b8;
   transition-property: border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
